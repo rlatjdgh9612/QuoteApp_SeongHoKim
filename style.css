@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("./Sun.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-shadow: 4px 3px 2px black;
+}
+/*시간, 이름, 할일에 대한 리스트*/
+.main{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 80vh;
+}
+.time{
+    font-size: 80px;
+    font-weight: bold;
+}
+.name{
+    font-size: 30px;
+}
+.todo{
+    font-size: 15px;
+}
+
+/*명언에 대한 리스트*/
+.quote{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 20vh;
+}
+.author{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content{
+    font-size: 15px;
+}
